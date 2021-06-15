@@ -3,6 +3,5 @@
     "host": "127.0.0.1",
     "root": "/public",
     "open": true,
-    "file": "index.html",
-    "wait": 200
+    "file": "index.html"
 }
