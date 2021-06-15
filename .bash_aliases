@@ -57,6 +57,7 @@ alias cds="cd ~/AppData/Roaming/site"
 alias cde="cd ~/AppData/Roaming/.emacs.d"
 
 # Blog
+alias ser="cd ~/AppData/Roaming/site && live-server --open=public"
 alias gpp="git add . && git commit -m 'Posts update.' && git push"
 alias scopy="source scripts/copy.sh"
 alias sypoc="source scripts/ypoc.sh"
