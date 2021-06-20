@@ -39,6 +39,8 @@ alias glg="git log --oneline --graph"
 alias gr="git remote"
 alias grl="git remote -v"
 
+alias grs="git restore"
+
 alias gl="git pull"
 alias gt="git push"
 alias glt="git pull gitee source"
