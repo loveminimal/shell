@@ -55,8 +55,9 @@ alias pip="pip3"
 alias npmi="npm install --registry=https://registry.npm.taobao.org"
 
 # Quickly access
-alias cds="cd ~/AppData/Roaming/site"
+alias cdss="cd ~/AppData/Roaming/site"
 alias cde="cd ~/AppData/Roaming/.emacs.d"
+alias cds="cd ~/site"
 
 # Blog
 alias ser="cd ~/AppData/Roaming/site && live-server --open=public"
