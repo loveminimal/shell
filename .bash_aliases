@@ -57,6 +57,7 @@ alias npmi="npm install --registry=https://registry.npm.taobao.org"
 # Quickly access
 alias cds="cd ~/AppData/Roaming/site"
 alias cde="cd ~/AppData/Roaming/.emacs.d"
+alias cdi="cd ~/AppData/Roaming/site/public/images"
 
 # Blog
 alias ser="cd ~/AppData/Roaming/site && live-server --open=public"
