@@ -57,7 +57,7 @@ alias npmi="npm install --registry=https://registry.npm.taobao.org"
 # Quickly access
 alias cds="cd ~/AppData/Roaming/site"
 alias cde="cd ~/AppData/Roaming/.emacs.d"
-alias cdi="cd ~/AppData/Roaming/site/public/images"
+alias cdi="cd ~/AppData/Roaming/site/public/images && l"
 
 # Blog
 alias gpp="git add . && git commit -m 'Posts update.' && git push"
