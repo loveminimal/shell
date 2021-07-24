@@ -66,3 +66,13 @@ alias ssc="cd ~/AppData/Roaming/site && source scripts/copy.sh"
 alias ssr="cd ~/AppData/Roaming/site && source scripts/rcopy.sh"
 alias ssd="cd ~/AppData/Roaming/site && source scripts/deploy.sh"
 
+# Quickly access in OS like Unix
+alias cdss="cd ~/site"
+alias cdee="cd ~/.emacs.d"
+alias cdii="cd ~/site/public/images && l"
+# Blog
+alias serr="cd ~/site && live-server --open=public"
+alias sscc="cd ~/site && source scripts/copy.sh"
+alias ssrr="cd ~/site && source scripts/rcopy.sh"
+alias ssdd="cd ~/site && source scripts/deploy.sh"
+
