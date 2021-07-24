@@ -22,7 +22,7 @@ alias ee="emacs -nw"
 alias va="vim ~/.bash_aliases"
 alias sa="source ~/.bash_aliases"
 
-alias ss="ssh jack@193.112.245.112"
+alias ss="ssh jack@192.168.149.129"
 
 
 # Git
