@@ -22,7 +22,6 @@ alias ee="emacs -nw"
 alias va="vim ~/.bash_aliases"
 alias sa="source ~/.bash_aliases"
 
-alias ss="ssh jack@192.168.149.129"
 
 
 # Git
@@ -65,6 +64,11 @@ alias ser="cd ~/AppData/Roaming/site && live-server --open=public"
 alias ssc="cd ~/AppData/Roaming/site && source scripts/copy.sh"
 alias ssr="cd ~/AppData/Roaming/site && source scripts/rcopy.sh"
 alias ssd="cd ~/AppData/Roaming/site && source scripts/deploy.sh"
+
+# SSH
+alias sshh="ssh jack@192.168.149.129"
+alias ssjj="ssh jack@192.168.128.130"
+
 
 # Quickly access in OS like Unix
 alias cdss="cd ~/site"
