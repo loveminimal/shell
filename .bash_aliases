@@ -80,3 +80,6 @@ alias sscc="cd ~/site && source scripts/copy.sh"
 alias ssrr="cd ~/site && source scripts/rcopy.sh"
 alias ssdd="cd ~/site && source scripts/deploy.sh"
 
+# Clear DNS
+# sudo aptitude install nscd
+alias fdns="sudo /etc/init.d/nscd restart"
