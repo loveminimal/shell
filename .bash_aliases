@@ -68,6 +68,7 @@ alias ssd="cd ~/AppData/Roaming/site && source scripts/deploy.sh"
 # SSH
 alias sshh="ssh jack@192.168.149.129"
 alias ssjj="ssh jack@192.168.128.130"
+alias sstt="ssh jack@175.178.60.98"
 
 
 # Quickly access in OS like Unix
