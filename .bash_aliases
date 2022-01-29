@@ -70,7 +70,7 @@ alias cdi="cd ~/AppData/Roaming/site/public/images && l"
 # Blog
 alias gpp="git add . && git commit -m 'Posts update.' && git push"
 #alias ser="cd ~/AppData/Roaming/site && live-server --open=public"
-#alias ssc="cd ~/AppData/Roaming/site && source scripts/copy.sh"
+alias ssc="cd ~/AppData/Roaming/site && source scripts/copy.sh"
 alias ssr="cd ~/AppData/Roaming/site && source scripts/rcopy.sh"
 alias ssd="cd ~/AppData/Roaming/site && source scripts/deploy.sh"
 
@@ -80,8 +80,8 @@ alias cdss="cd ~/site"
 alias cdee="cd ~/.emacs.d"
 alias cdii="cd ~/site/public/images && l"
 # Blog
-alias serr="cd ~/site && live-server --open=public"
-#alias sscc="cd ~/site && source scripts/copy.sh"
+#alias serr="cd ~/site && live-server --open=public"
+alias sscc="cd ~/site && source scripts/copy.sh"
 alias ssrr="cd ~/site && source scripts/rcopy.sh"
 alias ssdd="cd ~/site && source scripts/deploy.sh"
 
