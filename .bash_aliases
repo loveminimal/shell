@@ -54,7 +54,8 @@ alias npmi="npm install --registry=https://registry.npm.taobao.org"
 # Login remote server
 alias sshh="ssh jack@192.168.149.129"   # Home
 alias ssjj="ssh jack@192.168.128.130"   # Job
-alias ssss="ssh jack@175.178.60.98"     # Server
+#alias ssss="ssh jack@175.178.60.98"     # Server
+alias ssss="ssh jack@ovirgo.com"        # Server
 alias ssht="ssh jack@192.168.72.128"    # HT
 
 # === BLOG =========
@@ -72,7 +73,8 @@ alias gpp="git add . && git commit -m 'Posts update.' && git push"
 #alias ser="cd ~/AppData/Roaming/site && live-server --open=public"
 alias ssc="cd ~/AppData/Roaming/site && source scripts/copy.sh"
 alias ssr="cd ~/AppData/Roaming/site && source scripts/rcopy.sh"
-alias ssd="cd ~/AppData/Roaming/site && source scripts/deploy.sh"
+#alias ssd="cd ~/AppData/Roaming/site && source scripts/deploy.sh"
+alias ssd="cd ~/AppData/Roaming/site && scp -r public jack@ovirgo.com:/home/jack/site"
 
 # Quickly access in OS like Unix
 # --- Linux ---
