@@ -74,7 +74,7 @@ alias gpp="git add . && git commit -m 'Posts update.' && git push"
 alias ssc="cd ~/AppData/Roaming/site && source scripts/copy.sh"
 alias ssr="cd ~/AppData/Roaming/site && source scripts/rcopy.sh"
 #alias ssd="cd ~/AppData/Roaming/site && source scripts/deploy.sh"
-alias ssd="cd ~/AppData/Roaming/site && cp -r public blog && scp -r blog jack@ovirgo.com:/home/jack && rm -r blog"
+alias ssd="cd ~/AppData/Roaming/site && cp -r public blog && scp -r blog jack@ovirgo.com:/home/jack && rm -rf blog"
 
 # Quickly access in OS like Unix
 # --- Linux ---
@@ -86,5 +86,5 @@ alias cdii="cd ~/site/public/images && l"
 alias sscc="cd ~/site && source scripts/copy.sh"
 alias ssrr="cd ~/site && source scripts/rcopy.sh"
 #alias ssdd="cd ~/site && source scripts/deploy.sh"
-alias ssdd="cd ~/site && source scripts/deploy.sh"
+alias ssdd="cd ~ && rm -rf blog && cd ~/site && cp -r public ~/blog"
 
