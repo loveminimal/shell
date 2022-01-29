@@ -55,6 +55,7 @@ alias npmi="npm install --registry=https://registry.npm.taobao.org"
 alias sshh="ssh jack@192.168.149.129"   # Home
 alias ssjj="ssh jack@192.168.128.130"   # Job
 alias ssss="ssh jack@175.178.60.98"     # Server
+alias ssht="ssh jack@192.168.72.128"    # HT
 
 # === BLOG =========
 alias glt="git pull gitee source"
@@ -66,7 +67,7 @@ alias cds="cd ~/AppData/Roaming/site"
 alias cde="cd ~/AppData/Roaming/.emacs.d"
 alias cdi="cd ~/AppData/Roaming/site/public/images && l"
 
-# --- Blog ---
+# Blog
 alias gpp="git add . && git commit -m 'Posts update.' && git push"
 #alias ser="cd ~/AppData/Roaming/site && live-server --open=public"
 #alias ssc="cd ~/AppData/Roaming/site && source scripts/copy.sh"
