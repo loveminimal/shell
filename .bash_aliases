@@ -73,8 +73,8 @@ alias gpp="git add . && git commit -m 'Posts update.' && git push"
 #alias ser="cd ~/AppData/Roaming/site && live-server --open=public"
 alias ssc="cd ~/AppData/Roaming/site && source scripts/copy.sh"
 alias ssr="cd ~/AppData/Roaming/site && source scripts/rcopy.sh"
-#alias ssd="cd ~/AppData/Roaming/site && source scripts/deploy.sh"
-alias ssd="cd ~/AppData/Roaming/site && scp -r public jack@ovirgo.com:/home/jack/site"
+alias ssd="cd ~/AppData/Roaming/site && source scripts/deploy.sh"
+#alias ssd="cd ~/AppData/Roaming/site && scp -r public jack@ovirgo.com:/home/jack/site"
 
 # Quickly access in OS like Unix
 # --- Linux ---
