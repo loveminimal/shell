@@ -85,5 +85,6 @@ alias cdii="cd ~/site/public/images && l"
 #alias serr="cd ~/site && live-server --open=public"
 alias sscc="cd ~/site && source scripts/copy.sh"
 alias ssrr="cd ~/site && source scripts/rcopy.sh"
-alias ssdd="cd ~/site && source scripts/deploy.sh"
+#alias ssdd="cd ~/site && source scripts/deploy.sh"
+alias ssdd="cd ~ && rm -rf blog && cd ~/site && cp -r public ~/blog"
 
