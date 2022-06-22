@@ -65,6 +65,7 @@ alias gtt="git push gitee source"
 # Quickly access
 # --- Windows ---
 alias cds="cd ~/AppData/Roaming/site"
+alias cdt="cd ~/AppData/Roaming/site/themes/virgo"
 alias cde="cd ~/AppData/Roaming/.emacs.d"
 alias cdi="cd ~/AppData/Roaming/site/public/images && l"
 
