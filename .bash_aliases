@@ -80,6 +80,7 @@ alias ssd="cd ~/AppData/Roaming/site && source scripts/deploy.sh"
 # Quickly access in OS like Unix
 # --- Linux ---
 alias cdss="cd ~/site"
+alias cdtt="cd ~/site/themes/virgo"
 alias cdee="cd ~/.emacs.d"
 alias cdii="cd ~/site/public/images && l"
 # Blog
