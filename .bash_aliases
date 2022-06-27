@@ -76,6 +76,7 @@ alias ssc="cd ~/AppData/Roaming/site && source scripts/copy.sh"
 alias ssr="cd ~/AppData/Roaming/site && source scripts/rcopy.sh"
 #alias ssd="cd ~/AppData/Roaming/site && source scripts/deploy.sh"
 alias ssd="cd ~/AppData/Roaming/site && rm -rf public && hugo && source scripts/deploy.sh"
+alias sscp="cd ~/AppData/Roaming/site && rm -rf public && hugo && scp -r public/* ovirgo.com:/home/jack/blog/"
 #alias ssd="cd ~/AppData/Roaming/site && scp -r public jack@ovirgo.com:/home/jack/site"
 
 # Quickly access in OS like Unix
