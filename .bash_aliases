@@ -93,7 +93,16 @@ alias ssrr="cd ~/site && source scripts/rcopy.sh"
 alias ssdd="cd ~ && rm -rf blog && cd ~/site && rm -rf public && hugo && cp -r public ~/blog && rm -rf public"
 
 # --- Hugo ---
-alias hb="hugo -b http://175.178.60.98:1313 -D"
+alias hb="hugo -b http://175.178.60.98:1314 -D"
 alias hh="hugo"
 alias hs="hugo server -D"
+
+# --- Shell ---
+alias cpsh="cp ~/.shell/.bash_aliases ~/"
+alias cphs="cp ~/.bash_aliases ~/.shell/"
+
+
+
+
+
 
