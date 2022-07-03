@@ -90,7 +90,7 @@ alias cdii="cd ~/site/public/images && l"
 alias sscc="cd ~/site && source scripts/copy.sh"
 alias ssrr="cd ~/site && source scripts/rcopy.sh"
 #alias ssdd="cd ~/site && source scripts/deploy.sh"
-alias ssdd="cd ~ && rm -rf blog && cd ~/site && rm -rf public && hugo && cp -r public ~/blog && rm -rf public"
+alias ssdd="cd ~ && rm -rf blog && cd ~/site && rm -rf public && hugo && cp -r public ~/blog && rm -rf public && echo 'Deploy done.'"
 
 # --- Hugo ---
 alias hb="hugo -b http://175.178.60.98:1314 -D"
