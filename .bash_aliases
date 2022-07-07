@@ -68,6 +68,7 @@ alias cds="cd ~/AppData/Roaming/site"
 alias cdt="cd ~/AppData/Roaming/site/themes/virgo"
 alias cde="cd ~/AppData/Roaming/.emacs.d"
 alias cdi="cd ~/AppData/Roaming/site/public/images && l"
+alias cdc="cd ~/cve"
 
 # Blog
 alias gpp="git add . && git commit -m 'Posts update.' && git push"
