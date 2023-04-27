@@ -72,7 +72,7 @@ alias cdi="cd ~/AppData/Roaming/site/public/images && l"
 alias cdc="cd ~/cve"
 
 # Blog
-alias gpp="git add . && git commit -m 'Posts update.' && git push"
+alias gpp="git add . && git commit -m 'Update.' && git push"
 #alias ser="cd ~/AppData/Roaming/site && live-server --open=public"
 alias ssc="cd ~/AppData/Roaming/site && source scripts/copy.sh"
 alias ssr="cd ~/AppData/Roaming/site && source scripts/rcopy.sh"
