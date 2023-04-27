@@ -66,7 +66,7 @@ alias gtt="git push gitee source"
 # --- Windows ---
 alias cds="cd ~/AppData/Roaming/site"
 alias cdt="cd ~/AppData/Roaming/site/themes/virgo"
-alias cdn="cd ~/AppData/Roaming/site/static/ship"
+alias cdn="cd ~/AppData/Roaming/note"
 alias cde="cd ~/AppData/Roaming/.emacs.d"
 alias cdi="cd ~/AppData/Roaming/site/public/images && l"
 alias cdc="cd ~/cve"
@@ -85,7 +85,7 @@ alias sscp="cd ~/AppData/Roaming/site && rm -rf public && hugo && scp -r public/
 # --- Linux ---
 alias cdss="cd ~/site"
 alias cdtt="cd ~/site/themes/virgo"
-alias cdnn="cd ~/site/static/ship"
+alias cdnn="cd ~/note"
 alias cdee="cd ~/.emacs.d"
 alias cdii="cd ~/site/public/images && l"
 # Blog
