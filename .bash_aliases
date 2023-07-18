@@ -30,6 +30,7 @@ alias fdns="sudo /etc/init.d/nscd restart"
 alias gst="git status"
 alias gaa="git add ."
 alias gcm="git commit -m"
+alias gca="git commit --amend"
 alias gco="git checkout"
 alias gcb="git checkout"
 alias gnb="git checkout -b"
@@ -48,14 +49,14 @@ alias py="python3"
 alias pip="pip3"
 
 # --- NPM ---
-alias npmi="npm install --registry=https://registry.npm.taobao.org"
+alias npmi="npm install --registry=https://registry.npmmirror.com"
 
 # === SSH =========
 # Login remote server
 alias sshh="ssh jack@192.168.149.129"   # Home
 alias ssjj="ssh jack@192.168.128.130"   # Job
 #alias ssss="ssh jack@175.178.60.98"     # Server
-alias ssss="ssh jack@ovirgo.com"        # Server
+alias ssss="ssh jack@175.178.60.98"        # Server
 alias ssht="ssh jack@192.168.72.128"    # HT
 
 # === BLOG =========
