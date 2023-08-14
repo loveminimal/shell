@@ -38,6 +38,7 @@ alias grb="git branch -d"
 alias glb="git branch"
 alias gmg="git merge"
 alias glg="git log --oneline --graph"
+alias gll="git log --oneline --graph -10"
 alias gr="git remote"
 alias grl="git remote -v"
 alias grs="git restore"
@@ -99,7 +100,7 @@ alias ssdd="cd ~ && rm -rf blog && cd ~/site && rm -rf public && hugo && cp -r p
 # --- Hugo ---
 alias hb="hugo -b http://175.178.60.98:1314 -D"
 alias hh="hugo"
-alias hs="hugo server -D"
+alias hs="hugo server -Dw"
 
 # --- Shell ---
 alias cpsh="cp ~/.shell/.bash_aliases ~/"
