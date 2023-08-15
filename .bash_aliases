@@ -100,7 +100,7 @@ alias ssdd="cd ~ && rm -rf blog && cd ~/site && rm -rf public && hugo && cp -r p
 # --- Hugo ---
 alias hb="hugo -b http://175.178.60.98:1314 -D"
 alias hh="hugo"
-alias hs="hugo server -Dw"
+alias hs="hugo server -DEFw"
 
 # --- Shell ---
 alias cpsh="cp ~/.shell/.bash_aliases ~/"
